@@ -1,2 +1,3 @@
-console.log("Hello, DevOps")
-console.log("I'm learning CI/CD using Github Actions.")
+console.log('Starting tests ...')
+setTimeout(() => console.log("Waiting 3 seconds ...."), 3000)
+console.log('Tests Completed!')
